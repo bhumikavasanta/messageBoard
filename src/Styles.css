@@ -1,0 +1,15 @@
+.buttonStyle {
+  background-color: blue;
+  color: white;
+  padding: 8px; /* Replace theme.spacing(1) with the corresponding fixed value */
+  border-radius: 8px; /* Replace theme.spacing(1) with the corresponding fixed value */
+}
+
+.buttonStyle:hover {
+  background-color: darkblue;
+}
+
+.customText {
+  font-size: 18px;
+  color: #333;
+}
