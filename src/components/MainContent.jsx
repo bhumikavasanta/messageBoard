@@ -141,7 +141,6 @@ const MainContent = () => {
         <MessageDisplay
           key={msg?.id}
           id={msg?.id}
-          username={msg?.source}
           message={msg?.text}
           timestamp={msg?.timestamp}
           deleted={deleted}

@@ -3,7 +3,6 @@ import React from 'react';
 const MessageDisplay = (props) => {
   const {
     id,
-    username,
     message,
     timestamp,
     deleted,
@@ -31,8 +30,7 @@ const MessageDisplay = (props) => {
   return (
     <div className="message-container">
       <div className="message">
-        <div style={{ display: 'flex' }}>
-          <p className="userName">~ {username}</p>
+        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <p className="timestamp">{new Date(timestamp).toLocaleString()}</p>
           <button onClick={handleDelete}>Delete</button>
         </div>
